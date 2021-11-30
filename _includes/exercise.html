@@ -1,0 +1,10 @@
+<div class="toggle">
+  <!-- See also CSS block in base html -->
+  <!-- Exercise title -->
+  <input type="checkbox" value="selected" id="{{include.title | slugify}}" class="toggle-input">
+  <label for="{{include.title | slugify}}" class="toggle-label">{{include.title}}</label> 
+  <!-- Exercise content -->
+  <div role="toggle" class="toggle-content">
+    {{include.content}}
+  </div>
+</div>
