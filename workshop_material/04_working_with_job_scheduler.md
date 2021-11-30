@@ -57,6 +57,7 @@ All NeSI clusters use Slurm *(Simple Linux Utility for Resource Management)* sch
 Let's run the following commands and discuss the outputs
 
 {% capture exercise1_content %}
+
 ```bash
 #summary of current states of compute nodes known to the scheduler
 $ sinfo
@@ -70,6 +71,7 @@ $ sinfo -N -l
 #Explore the capacity of a compute node
 $ sinfo -n wch001 -o "%n %c %m"
 ```
+
 {% endcapture}
 {% include exercise.html title="**Hello!**" content=exercise1_content %}
       
