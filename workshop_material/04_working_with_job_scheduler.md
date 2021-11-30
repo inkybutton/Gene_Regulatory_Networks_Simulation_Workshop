@@ -72,35 +72,8 @@ $ sinfo -n wch001 -o "%n %c %m"
 ```
 {% endcapture %}
 
-{% include exercise.html title="**Hello!**" content=exercise1_content%}
+{% include exercise.html title="Exercise 4.1" content=exercise1_content%}
       
-<!-- <div class="accordion" id="accordionExample">
-<div class="accordion-item">
-<h2 id="heading1" class="accordion-item">
-<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-Exercise #1
-</button>
-</h2>
-<div id="collapseOne" class="accordion-collapse collapse hide" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-<div class="accordion-body">
-```bash
-#summary of current states of compute nodes known to the scheduler
-$ sinfo
-
-#similar to above but expanded
-$ sinfo --format="%16P %.8m %.5a %10T %.5D %80N"
-
-#will print a long output as it is one row per compute node in the cluster
-$ sinfo -N -l
-
-#Explore the capacity of a compute node
-$ sinfo -n wch001 -o "%n %c %m"
-```
-</div>
-</div>
-</div>
-</div>
- -->
 ## Life cycle of a slurm job
 
 <br>
