@@ -74,7 +74,7 @@ $ sinfo -n wch001 -o "%n %c %m"
 
 {% endcapture}
 
-{% include exercise.html title="**Hello!**" content="_Testing_" %}
+{% include exercise.html title="**Hello!**" %}
       
 <!-- <div class="accordion" id="accordionExample">
 <div class="accordion-item">
