@@ -73,6 +73,7 @@ $ sinfo -n wch001 -o "%n %c %m"
 ```
 {% endcapture %}
 
+## Exercise 4.1
 {% include exercise.html title="Exercise 4.1" content=exercise1_content%}
       
 ## Life cycle of a slurm job
